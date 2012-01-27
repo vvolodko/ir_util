@@ -321,7 +321,7 @@ local pathSeparator = {
     system = '\\'
 }
 function systemPath(str)
-    return String.replace(str, pathSeparator.posix, pathSeparator.win)
+    return String.Replace(str, pathSeparator.posix, pathSeparator.win)
 end
 
 --- Return directory path of the given @p file.
